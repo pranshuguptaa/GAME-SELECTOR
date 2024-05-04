@@ -1,0 +1,13 @@
+mysql> CREATE DATABASE game_database;
+Query OK, 1 row affected (0.37 sec)
+
+mysql> USE game_database;
+Database changed
+mysql> CREATE TABLE users (
+    ->     id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     username VARCHAR(255) UNIQUE NOT NULL,
+    ->     password VARCHAR(255) NOT NULL
+    -> );
+Query OK, 0 rows affected (1.47 sec)
+
+mysql>
