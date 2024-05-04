@@ -261,7 +261,7 @@ def tic_tac_toe():
 
 
 
-def snake_ladder():
+def number_guessing_game():
     import random
 
     max_value = int(input('Enter your level : ').strip())
